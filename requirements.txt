@@ -2,10 +2,5 @@ fastapi
 uvicorn
 pydantic
 requests
-numpy
-Pillow
-cmake
-dlib==19.21.1
 face_recognition
-opencv-python
 streamlit
