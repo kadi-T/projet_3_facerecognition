@@ -3,16 +3,16 @@ channels:
   - conda-forge
 dependencies:
   - python=3.11
-  - dlib
   - numpy
   - pillow
   - cmake
-  - opencv
   - pip
   - pip:
-      - fastapi
-      - uvicorn
-      - pydantic
-      - requests
-      - face_recognition
-      - streamlit
+    - fastapi
+    - uvicorn
+    - pydantic
+    - requests
+    - dlib==19.21.1
+    - face_recognition
+    - opencv-python
+    - streamlit
