@@ -5,5 +5,5 @@ requests
 numpy
 Pillow
 face_recognition
-opencv-python-headless
+opencv-python
 streamlit
